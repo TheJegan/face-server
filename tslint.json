@@ -1,0 +1,132 @@
+{
+  "rules": {
+    //"align": not using because it promotes vertical space usage
+    //"ban": nothing we want to ban right now
+    "class-name": true,
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "curly": true,
+    //"eofline": conflicts with our editor setting to remove trailing whitespace
+    "forin": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "jsdoc-format": true,
+    "label-position": true,
+    "label-undefined": true,
+    //"linebreak-style": Git takes care of this xplat
+    //"max-line-length": it's 2016
+    //"member-access": not convinced of value
+    "member-ordering": [
+      true,
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "new-parens": true,
+    //"no-angle-bracket-type-assertion": prefer angle bracket notation over as
+    //"no-any": duck typing isn't always bad
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blanklines": true,
+    //"no-console": we use it
+    "no-construct": true,
+    "no-constructor-vars": true,
+    "no-debugger": true,
+    //"no-default-export": we use it today
+    "no-duplicate-key": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-inferrable-types": true,
+    "no-internal-module": true,
+    //"no-invalid-this": need to deal with mockInsights
+    //"no-mergeable-namespace": rule doesn't exist?
+    "no-namespace": true,
+    //"no-null-keyword": heavily used
+    "no-reference": true,
+    //"no-require-imports": heavily used
+    "no-shadowed-variable": true,
+    //"no-string-literal": used for duck typing
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
+    "no-unreachable": true,
+    "no-unused-expression": true,
+    //"no-unused-new": rule doesn't exist?
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    //"no-var-keyword": so many vars
+    //"no-var-requires": heavily used
+    //"object-literal-sort-keys": order logically not alphabetically
+    "one-line": [
+      true,
+      "check-catch",
+      "check-else",
+      "check-finally",
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "one-variable-per-declaration": true,
+    //"only-arrow-functions": rule doesn't exist?
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "radix": true,
+    //"restrict-plus-operands": rule doesn't exist?
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "switch-default": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "triple-equals": true,
+    //"typedef": so many missing types
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "use-isnan": true,
+    "use-strict": true,
+    "variable-name": [
+      true,
+      "check-format",
+      "ban-keywords"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-module",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  }
+}

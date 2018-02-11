@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "outDir": "dist"
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "!node_modules/**",
+        "!dist/**",
+        "!typings/**",
+        "typings/index.d.ts"
+    ],
+    "files": [
+        "app.ts",
+        "bin/www.ts",
+        "business/faceService.ts",
+        "env.ts",
+        "middleware/promiseWrap.ts",
+        "models/tenant.ts",
+        "routes/face.ts",
+        "typings/index.d.ts"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "globalDependencies": {
+    "xml2js": "github:DefinitelyTyped/DefinitelyTyped/xml2js/xml2js.d.ts#001ca36ba58cef903c4c063555afb07bbc36bb58",
+    "applicationinsights": "github:DefinitelyTyped/DefinitelyTyped/applicationinsights/applicationinsights.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#3a86e056dc018541d82dd74639fca18ba8d605da",
+    "morgan": "github:DefinitelyTyped/DefinitelyTyped/morgan/morgan.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "cors": "github:DefinitelyTyped/DefinitelyTyped/cors/cors.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "config": "github:DefinitelyTyped/DefinitelyTyped/config/config.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "request": "github:DefinitelyTyped/DefinitelyTyped/request/request.d.ts#3a86e056dc018541d82dd74639fca18ba8d605da",
+    "form-data": "github:DefinitelyTyped/DefinitelyTyped/form-data/form-data.d.ts#3a86e056dc018541d82dd74639fca18ba8d605da",
+    "Q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#7577a2f4c134790891c52affdacdae99d802571b",
+    "redis": "github:DefinitelyTyped/DefinitelyTyped/redis/redis.d.ts#86dbea8fc37d9473fee465da4f0a21bea4f8cbd9",
+    "debug": "github:DefinitelyTyped/DefinitelyTyped/debug/debug.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "assertion-error": "github:DefinitelyTyped/DefinitelyTyped/assertion-error/assertion-error.d.ts#6a6ad7068a177c0d7a8a20830626cb63277191c5",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#6a6ad7068a177c0d7a8a20830626cb63277191c5",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#fe563dff3428bac1260d1794e2c2ecf8f097535a",
+    "mockery": "github:DefinitelyTyped/DefinitelyTyped/mockery/mockery.d.ts#fe563dff3428bac1260d1794e2c2ecf8f097535a",
+    "sinon": "github:DefinitelyTyped/DefinitelyTyped/sinon/sinon.d.ts#6a6ad7068a177c0d7a8a20830626cb63277191c5",
+    "sinon-chai": "github:DefinitelyTyped/DefinitelyTyped/sinon-chai/sinon-chai.d.ts#6a6ad7068a177c0d7a8a20830626cb63277191c5",
+    "vso-node-api": "github:DefinitelyTyped/DefinitelyTyped/vso-node-api/vso-node-api.d.ts#7577a2f4c134790891c52affdacdae99d802571b",
+    "minimatch": "github:DefinitelyTyped/DefinitelyTyped/minimatch/minimatch.d.ts#3a86e056dc018541d82dd74639fca18ba8d605da",
+    "glob": "github:DefinitelyTyped/DefinitelyTyped/glob/glob.d.ts#3a86e056dc018541d82dd74639fca18ba8d605da",
+    "clone": "github:DefinitelyTyped/DefinitelyTyped/clone/clone.d.ts#b14601af3fb2ad72d5048e94188a569a1838fb9c",
+    "async": "github:DefinitelyTyped/DefinitelyTyped/async/async.d.ts#641df27e73ca67fa7199a3deedae104198d41a17"
+  }
+}

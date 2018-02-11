@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/6a6ad7068a177c0d7a8a20830626cb63277191c5/sinon-chai/sinon-chai.d.ts",
+    "raw": "github:DefinitelyTyped/DefinitelyTyped/sinon-chai/sinon-chai.d.ts#6a6ad7068a177c0d7a8a20830626cb63277191c5",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/6a6ad7068a177c0d7a8a20830626cb63277191c5/sinon-chai/sinon-chai.d.ts"
+  }
+}
