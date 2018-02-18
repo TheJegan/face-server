@@ -6,9 +6,11 @@
   <button type="submit">submit</button>
 </form> -->
 
-<input id="face" name='face' type="file">
+<input id="face" name='face' type="file" accept="image/*" capture="user">
+<!-- <input type="file" name="image" accept="image/*" capture="user"> -->
 <button id="btnFace" type="submit">submit</button>
-
+<br /><br /><br />
+<div id="loading" style="display:none">Loading... </div>
 <div id="img">
 
 </div>
@@ -19,7 +21,8 @@
     var file = $("#face")[0].files[0];
     var formData = new FormData();
     formData.append('face', file);
-    // formData.append(' ', );
+
+    $("#loading").show();
 
     $.ajax({
       type: "POST",
@@ -30,9 +33,11 @@
       data: formData,
       success: function (data) {
         var img = '<img src="data:image/png;base64,' + data + '"></img>';
-        $('#img').append(img);
-      }, error: function () {
+        $('#img').html(img);
 
+        $("#loading").hide();
+      }, error: function () {
+        $("#loading").hide();
       }
     });
   });

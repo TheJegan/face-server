@@ -7,18 +7,20 @@ const multer = require('multer');
 let storage = multer.memoryStorage();
 let upload = multer({ storage: storage });
 let fileUpload = upload.single('face');
-
-// router.get('/', wrap(function* (requestuest, response, next) {
-// 	console.log('avocados');
-// 	response.status(200).send({msg: "avocado oil FTW"});
-// }));
+import { ImageService } from '../business/faceService';
+let imgService = new ImageService();
 
 router.post('/', fileUpload, wrap(function* (request, response, next) {
-  console.log('face recognition');
-  const fileContent = request.file.buffer.toString('base64');
-  console.log(fileContent);
+  console.info('face-service start');
+  const fileContent = request.file.buffer;
 
-	response.status(200).send(fileContent);
+  imgService.detectFace(fileContent).then(img => {
+    console.info('face-service success');
+    response.status(200).send(img);
+  }, err => {
+    console.error('face-service error');
+    response.status(500).send(err);
+  });
 }));
 
 module.exports = router;

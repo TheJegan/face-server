@@ -61,5 +61,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-mocha-test');
   grunt.registerTask('build', ['ts', 'copy']);
   grunt.registerTask('test', ['clean', 'build', 'mochaTest']);
-  grunt.registerTask('default', ['clean', 'build', 'mochaTest', 'tslint']);
+  grunt.registerTask('default', ['clean', 'build']);
 };

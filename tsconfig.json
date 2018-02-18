@@ -19,7 +19,6 @@
         "business/faceService.ts",
         "env.ts",
         "middleware/promiseWrap.ts",
-        "models/tenant.ts",
         "routes/face.ts",
         "typings/index.d.ts"
     ]
